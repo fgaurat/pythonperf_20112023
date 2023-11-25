@@ -1,8 +1,8 @@
 import asyncio
 import time
 from bs4 import BeautifulSoup
-from pprint import pprint
 import httpx
+from pprint import pprint
 
 async def olddownload(url_log):
     async with httpx.AsyncClient() as client:
